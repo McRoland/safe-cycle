@@ -34,8 +34,6 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-The venv steps matter — without them someone could pollute their global Python install and blame your project. Including it signals you know what you're doing, which is the whole point for a portfolio piece.
-
 ## Example
 
 ```python
