@@ -27,15 +27,14 @@ Returns a clean HTML map with validation results highlighted.
 ## How to Use
 
 ```bash
-# Install dependencies
-pip install gpxpy shapely geopandas folium haversine pytest
-
-# Run validation
-python safe_cycle.py
-
-# Run tests
-pytest test_safe_cycle.py -v
+git clone https://github.com/McRoland/safe-cycle.git
+cd safe-cycle
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
 ```
+
+The venv steps matter — without them someone could pollute their global Python install and blame your project. Including it signals you know what you're doing, which is the whole point for a portfolio piece.
 
 ## Example
 

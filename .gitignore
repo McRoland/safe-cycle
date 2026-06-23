@@ -2,4 +2,3 @@ __pycache__/
 *.pyc
 .DS_Store
 path_map.html
-map_preview.png
