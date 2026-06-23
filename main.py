@@ -6,7 +6,7 @@ from math import radians, cos, sin, asin, sqrt
 from haversine import haversine
 from datetime import datetime
 
-file_path = '/Users/fluxboi/Safe-Cycle/blue_hills.gpx'
+file_path = '/Users/fluxboi/Safe-Cycle/data/blue_hills.gpx'
 output_file = "path_map.html"
 
 # ===== SECTION 2: UTILITY FUNCTIONS =====
@@ -174,7 +174,7 @@ def add_track_to_map(m, coordinates):
 def add_checkpoints_to_map(m, coordinates, interval=10):
     """Add numbered markers every N points."""
     custom_icon = folium.CustomIcon(
-    icon_image="person-biking-solid.png",
+    icon_image="assets/person-biking-solid.png",
     icon_size=[25, 25]                 
     )
     for idx in range(0, len(coordinates), interval):
