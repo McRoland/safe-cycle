@@ -6,7 +6,7 @@ from math import radians, cos, sin, asin, sqrt
 from haversine import haversine
 from datetime import datetime
 
-file_path = '/Users/fluxboi/Safe-Cycle/data/blue_hills.gpx'
+file_path = 'data/blue_hills.gpx'
 output_file = "path_map.html"
 
 # ===== SECTION 2: UTILITY FUNCTIONS =====
